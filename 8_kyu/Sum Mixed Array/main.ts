@@ -1,0 +1,1 @@
+export const sumMix = (x: any[]): number => x.reduce((a, b) => +a + +b, 0);
