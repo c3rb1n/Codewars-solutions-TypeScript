@@ -1,0 +1,1 @@
+export const noOdds = (values: number[]): number[] => values.filter(el => el % 2 === 0);
