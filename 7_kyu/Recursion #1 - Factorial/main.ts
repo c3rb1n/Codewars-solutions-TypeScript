@@ -1,0 +1,1 @@
+export const factorial = (n: number): number => n > 0 ? n * factorial(n - 1) : 1;
