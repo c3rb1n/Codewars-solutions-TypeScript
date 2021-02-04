@@ -1,0 +1,1 @@
+export default (n: number): boolean => Math.sqrt(n) === 0 || n % Math.sqrt(n) === 0;
