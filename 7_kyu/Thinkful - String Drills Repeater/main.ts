@@ -1,0 +1,1 @@
+export const repeater = (str: string, n: number): string => str.repeat(n);
