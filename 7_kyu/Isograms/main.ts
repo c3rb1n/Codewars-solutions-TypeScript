@@ -1,5 +1,5 @@
 export const isIsogram = (str: string): boolean => {
-    const moddedStr = str.toLowerCase();
+    const moddedStr: string = str.toLowerCase();
   
     return !(moddedStr.split('')
                       .filter((el: string, index: number): boolean => 
